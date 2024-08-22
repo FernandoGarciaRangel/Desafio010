@@ -1,3 +1,9 @@
+Cores verdes
+claro:#84E1AD
+medio:#37C677
+escuro:#1A5C38
+
+
 Curiosidades de Tecnologia
 
 Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar
