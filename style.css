@@ -1,6 +1,11 @@
 body{
     background-color: #84E1AD;
 }
+
+main{
+    background-color: white;
+    height: 100%;
+}
 header{
     font-family: sans-serif;
     color: white;
