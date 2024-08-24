@@ -5,9 +5,15 @@ body{
 main{
     background-color: white;
     height: 100%;
+    width: 820px;
     font-family: sans-serif;
     text-indent: 30px;
     text-align: justify;
+    margin: auto;
+}
+
+article > p{
+    padding: 20px;
 }
 header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,11 +52,15 @@ strong{
 }
 div#video{
     background-color: #1A5C38;
-    height: 350px;
-    margin-top: 200px;
+    height: 380px;
+    width: 100%;
     margin: auto;
+    padding: 20px;
 }
 
+/* iframe#video2{
+    margin: 1000px;
+} */
 
 
 
