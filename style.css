@@ -5,10 +5,14 @@ body{
 main{
     background-color: white;
     height: 100%;
+    font-family: sans-serif;
+    text-indent: 30px;
+    text-align: justify;
 }
 header{
-    font-family: sans-serif;
-    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
     background-image: linear-gradient(to bottom, #37C677,#000000a8 );
     font-weight: lighter;
     height: 150px;
@@ -26,7 +30,26 @@ header > nav{
     padding: 5px 6px 20px 20px;
 }
 
-
+article > h2#titulo{
+    color:#1A5C38;
+    font-family: idroid;
+}
+article > h2.titulo02{
+    color:#1A5C38;
+    font-family: idroid;
+    font-size: 1.2em;
+    background-color: #acf5cc60;
+}
+strong{
+    color: #00883d;
+    font-weight: bolder;
+}
+div#video{
+    background-color: #1A5C38;
+    height: 350px;
+    margin-top: 200px;
+    margin: auto;
+}
 
 
 
