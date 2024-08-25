@@ -4,8 +4,8 @@ body{
 
 main{
     background-color: white;
-    height: 100%;
-    width: 820px;
+    height: 2700px;
+    width: 835px;
     font-family: sans-serif;
     text-indent: 30px;
     text-align: justify;
@@ -22,29 +22,38 @@ header{
     background-image: linear-gradient(to bottom, #37C677,#000000a8 );
     font-weight: lighter;
     height: 150px;
+    margin: -10px;
+    width: 100%;
+    padding: 0px;
 }
 header > h1{
     text-align: center;
+    margin-top: 0px;
 }
 header > h2{
     text-align: center;
     font-size: 0.8em;
 }
 header > nav{
-    margin-top: 30px;
+  
     font-weight: bold;
-    padding: 5px 6px 20px 20px;
+    padding-left: 20px;
+    word-spacing: 30px
+    ;
 }
 
 article > h2#titulo{
     color:#1A5C38;
     font-family: idroid;
+    margin-top: 10px;
+    padding-top: 30px;
 }
 article > h2.titulo02{
     color:#1A5C38;
     font-family: idroid;
     font-size: 1.2em;
-    background-color: #acf5cc60;
+    background-color: #8ef8bc7e;
+
 }
 strong{
     color: #00883d;
@@ -53,11 +62,39 @@ strong{
 div#video{
     background-color: #1A5C38;
     height: 380px;
-    width: 100%;
     margin: auto;
     padding: 20px;
 }
 
+picture > img#moça{
+    padding: 2%;
+    margin: auto;
+}
+
+div > header#final{
+    background-image: linear-gradient(to bottom, #37C677 ,#37C677);
+background-color: #37C677 #37C677 rgb(55, 198, 119);
+width: 800px;
+height: 50px;
+margin: auto; 
+  
+}
+
+
+
+div#lista{
+    background-color: #37c6774f;
+    width: 800px;
+    margin: auto;
+}
+
+div#lista > article > p{
+   margin-top: 0px;
+}
+
+div#lista > p{
+    font-size: large;
+ }
 /* iframe#video2{
     margin: 1000px;
 } */
