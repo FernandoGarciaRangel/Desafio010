@@ -1,5 +1,14 @@
+@font-face {
+    font-family: 'android';
+    src: url('idroid.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body{
     background-color: #84E1AD;
+    margin: 0px;
 }
 
 main{
@@ -10,6 +19,15 @@ main{
     text-indent: 30px;
     text-align: justify;
     margin: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+header > h1{
+    font-weight: lighter;
+    font-family: 'Bebas Neue';
+    font-size: 2.5em;
+    word-spacing: 1px;
 }
 
 article > p{
@@ -22,7 +40,7 @@ header{
     background-image: linear-gradient(to bottom, #37C677,#000000a8 );
     font-weight: lighter;
     height: 150px;
-    margin: -10px;
+    margin: 0%;
     width: 100%;
     padding: 0px;
 }
@@ -44,13 +62,13 @@ header > nav{
 
 article > h2#titulo{
     color:#1A5C38;
-    font-family: idroid;
-    margin-top: 10px;
+    font-family: 'android';
+    margin-top: 0px;
     padding-top: 30px;
 }
 article > h2.titulo02{
     color:#1A5C38;
-    font-family: idroid;
+    font-family: 'android';
     font-size: 1.2em;
     background-color: #8ef8bc7e;
 
@@ -77,6 +95,8 @@ background-color: #37C677 #37C677 rgb(55, 198, 119);
 width: 800px;
 height: 50px;
 margin: auto; 
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
   
 }
 
@@ -86,6 +106,9 @@ div#lista{
     background-color: #37c6774f;
     width: 800px;
     margin: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
 }
 
 div#lista > article > p{
@@ -94,10 +117,36 @@ div#lista > article > p{
 
 div#lista > p{
     font-size: large;
+  
  }
-/* iframe#video2{
-    margin: 1000px;
-} */
+
+
+
+ footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color:#003317 ;
+    margin: 0px;
+    color: white;
+ }
+ footer > p{
+    margin-bottom: 0px;
+ }
+
+ main > div > header#final > h3{
+    padding-top: 10px;
+    padding-left: 2px;
+ }
+
+ footer > p >strong{
+    color: white;
+    font-weight: bolder;
+ }
+img#img_android{
+    margin-left: 200px;
+}
+
+
 
 
 
